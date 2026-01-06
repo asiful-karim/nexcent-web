@@ -148,6 +148,64 @@ nav .navBtn a{
   padding: 14px 32px;
   display: inline-block;
 }
+/* our client start */
+#ourClients {
+  padding: 40px 0;
+}
+
+.clientLogo {
+  margin-top: 16px;
+}
+
+.clientLogo .row {
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* our client end */
+
+/* Community start */
+#community .heading h2 {
+  width: 545px;
+  margin: auto;
+}
+
+#community .row {
+  justify-content: space-between;
+  align-items: center;
+}
+
+#community .memberCard,
+#community .nationalCard,
+#community .clubCard {
+  border-radius: 8px;
+  padding: 24px 32px;
+  width: 299px;
+  height: 260px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: var(--neutral-white);
+  text-align: center;
+}
+
+#community .memberCard .heading h3,
+#community .nationalCard .heading h3,
+#community .clubCard .heading h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 129%;
+  text-align: center;
+  color: var(--neutral-d-grey);
+}
+
+#community .memberCard .heading p,
+#community .nationalCard .heading p,
+#community .clubCard .heading p,
+{
+font-size: 14px;
+line-height: 143%
+}
+/* Community end */
 
 /* banner end */
+
 

@@ -233,27 +233,36 @@ line-height: 143%;
 }
 /* Community end */
 /* pixelgrade start */
-#pixelgrade{
+#pixelgrade,#sitefooter{
   padding: 41px 0 48px;
 }
-#pixelgrade .pixelgradeImg{
+#pixelgrade .pixelgradeImg,
+#sitefooter .sitefooterImg{
   width: 40%;
 }
-#pixelgrade .pixelgradeImg img{
+#pixelgrade .pixelgradeImg img,
+#sitefooter .sitefooterImg img{
   width: 100%;
 }
-#pixelgrade .heading{
+#pixelgrade .heading,
+#sitefooter .heading
+{
   width: 60%;
 }
-#pixelgrade .heading h2,#pixelgrade .heading p{
+#pixelgrade .heading h2,#pixelgrade .heading p,
+#sitefooter .heading h2,#sitefooter .heading p{
   text-align: left;
   margin-bottom: 0px;
 }
-#pixelgrade .row{
+#pixelgrade .row,
+#sitefooter .row
+{
   align-items: center;
   justify-content: space-between;
 }
-#pixelgrade .heading a{
+#pixelgrade .heading a,
+#sitefooter .heading a
+{
   display: inline-block;
   margin-top: 32px;
 }
@@ -295,4 +304,180 @@ line-height: 143%;
   text-align: left;
 }
 /* Achievements end */
+/* sitefooter same as pixelgrade */
 
+/* customer start */
+#customer{
+  background: var(--neutral-silver);
+  padding: 32px 144px;
+}
+#customer .customerImg{
+  width: 40%;
+}
+#customer .customerImg img{
+  width: 80%;
+}
+#customer .customerText{
+  width: 60%;
+}
+#customer .customerText p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--neutral-grey);
+}
+#customer .customerText .customerName h4{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--brand-primary);
+}
+#customer .customerText .customerName p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--neutral-l-grey);
+}
+#customer .customerText .customerIcon .row,
+#customer .customerText .customerIcon .moreCustomer .row
+{
+  align-items: center;
+  justify-content: space-between;
+}
+
+#customer .customerText .customerIcon .moreCustomer h4{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--brand-primary);
+  margin: 16px 0 8px;
+}
+#customer .customerText .customerIcon{
+  margin: 32px 0 33px;
+}
+/* customer end */
+/* new marketing start */
+#newmerketing{
+  padding: 48px 0px 95px;
+}
+#newmerketing p{
+  width: 650px;
+  margin: auto;
+  margin-bottom: 16px;
+}
+#newmerketing .row .heading p{
+  width: 220px;
+}
+#newmerketing .row .heading{
+border-radius: 8px;
+padding: 16px;
+width: 317px;
+height: 176px;
+box-shadow: 0 8px 16px 0 rgba(171, 190, 209, 0.4);
+background: var(--neutral-silver);
+position: absolute;
+
+}
+#newmerketing .row .heading h4{
+font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+color: var(--brand-primary);
+text-align: center;
+}
+#newmerketing .row .marketing2{
+  margin: 0 16px;
+}
+#newmerketing .row .marketing1 .heading{
+  top: 530%;
+  left: 10%;
+}
+#newmerketing .row .marketing2 .heading{
+  left: 38%;
+  top: 530%;
+}
+#newmerketing .row .marketing3 .heading{
+  left: 67%;
+  top: 530%;
+}
+#newmerketing .row .marketing1 .heading .row h4,
+#newmerketing .row .marketing2 .heading .row h4,
+#newmerketing .row .marketing3 .heading .row h4
+{
+  margin: auto;
+}
+/* new marketing end */
+/* pellentesque start */
+#pellentesque{
+  padding: 32px 0;
+  background: var(--neutral-silver);
+}
+#pellentesque .heading h2{
+ color: var(--neutral-black);
+ width: 450px;
+ margin: auto;
+}
+#pellentesque a{
+  display: inline-block;
+  margin: 32px 0 0 500px;
+} 
+/*  pellentesque end */
+/* footer start */
+#footer{
+  padding: 64px 165px;
+  background: var(--neutral-black);
+}
+#footer .companyInfo{
+  width: 40%;
+}
+#footer .companyInfo .heading p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: var(--neutral-silver);
+  text-align: left;
+  margin: 40px 0;
+}
+
+#footer .liNks {
+  width: 60%;
+}
+#footer .liNks .comPany p,
+#footer .liNks .supPort p,
+#footer .liNks .stayuPtodate p{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--neutral-white);
+  margin-bottom: 24px;
+}
+#footer .liNks ul li{
+  margin-bottom: 8px;
+}
+#footer .liNks ul li a{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: var(--neutral-silver);
+}
+#footer .liNks .row{
+  justify-content: space-between;
+}
+#footer .liNks .stayuPtodate input{
+border-radius: 8px;
+width: 255px;
+height: 40px;
+background: var(--neutral-white);
+opacity: 0.2;
+}
+#footer .liNks .stayuPtodate input::placeholder{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #1b5e1f;
+  opacity: 1;
+}
+input:placeholder-shown {
+  border: 5px solid white;
+}
+/* footer end */
